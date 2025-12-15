@@ -6,10 +6,10 @@ count = 120
 contains_raw = "raw" in description
 contains_Imported = "Imported" in description
 #store data types
-price_is_float = type(price)
-count_is_int = type(count)
+price_is_float = (type(price) == float)
+count_is_int = (type(count) == int)
 #output
-Print(Contains 'raw': <contains_raw>)
-Print(Contains 'Imported': <contains_Imported>)
-Print(Is price a float?: <price_is_float>)
-Print(Is count an integer?: <count_is_int>)
+print(Contains 'raw': <contains_raw>)
+print(Contains 'Imported': <contains_Imported>)
+print(Is price a float?: <price_is_float>)
+print(Is count an integer?: <count_is_int>)

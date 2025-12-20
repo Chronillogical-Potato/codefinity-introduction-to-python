@@ -16,7 +16,7 @@ if grape_count >= 1:
 else:
     print("Grapes are sufficiently stocked.")
 #orange logic
-if orange_index >= 1:
+if "oranges" in shelf:
     print("Oranges are at index:",orange_index)
 else:
     print("Oranges are out of stock.")
